@@ -1,11 +1,11 @@
 import math
-n=int(input())
-def ps(n):
-	if n>=0:
-		sr=int(math.sqrt(n))
-		return ((sr*sr) == n)
+def isPerfectSquare(x):
+	if(x >= 0):
+		sr = int(math.sqrt(x))
+		return ((sr*sr) == x)
 	return false
-if (ps(n)):
+x = int(input())
+if (isPerfectSquare(x)):
 	print("True")
 else:
 	print("False")
